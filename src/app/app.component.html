@@ -1,0 +1,920 @@
+<!-- Header -->
+<section id="header">
+  <div class="header container">
+    <div class="nav-bar">
+      <div class="brand">
+        <a href="#hero"
+          ><h1><span>R</span>ahul <span>K</span>ale</h1></a
+        >
+      </div>
+      <div class="nav-list">
+        <div class="hamburger" (click)="onHamburgerClick()">
+          <div class="bar"></div>
+        </div>
+        <ul>
+          <li>
+            <a href="#hero" (click)="onNavigation()" data-after="Home">Home</a>
+          </li>
+          <li>
+            <a href="#services" (click)="onNavigation()" data-after="Service"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#projects" (click)="onNavigation()" data-after="Projects"
+              >Projects</a
+            >
+          </li>
+
+          <li>
+            <a href="#skills" (click)="onNavigation()" data-after="Skills"
+              >Skills</a
+            >
+          </li>
+
+          <li>
+            <a href="#about" (click)="onNavigation()" data-after="About"
+              >About</a
+            >
+          </li>
+          <li>
+            <a href="#contact" (click)="onNavigation()" data-after="Contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Header -->
+
+<!-- Hero Section  -->
+<section id="hero">
+  <div class="hero container">
+    <div>
+      <h1>Hello, <span></span></h1>
+      <h1>My Name is <span></span></h1>
+      <h1>Rahul <span></span></h1>
+      <div style="color: white; font-family: 'Courier New', Courier, monospace; font-size: 15px;">
+      <h2>Full Stack Web Devloper</h2>
+      <h2>I Design, Build and deploy the web apps</h2>
+      <h2>Have project, idea or problem you'd like to discuss?</h2>
+      <h2>lets discuss <a href="mailto:rahulkale360@gmail.com">rahulkale360@gmail.com</a> </h2>
+      </div>
+  
+      <a href="#projects" type="button" class="cta">Portfolio</a>
+    </div>
+  </div>
+</section>
+<!-- End Hero Section  -->
+
+<!-- Service Section -->
+<section id="services">
+  <div class="services container">
+    <div class="service-top">
+      <h1 class="section-title">What<span> i</span> <span> do</span></h1>
+    </div>
+    <div class="service-bottom">
+      <div class="service-item">
+        <div class="icon">
+          <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
+        </div>
+        <h2>Front End Developement</h2>
+        <p>
+          I Create , user friendly, and cool interactive user interfaces using
+          HTML, CSS, Javascript, Jquery, AJAX, Angular.
+        </p>
+      </div>
+      <div class="service-item">
+        <div class="icon">
+          <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
+        </div>
+        <h2>Back End Developement</h2>
+        <p>
+          I Create the REST APIs, My focus to make API Secure, Scalable,
+          flexible API, which will help you to make your app available not only
+          on web
+        </p>
+      </div>
+      <div class="service-item">
+        <div class="icon">
+          <img src="https://img.icons8.com/bubbles/100/000000/services.png" />
+        </div>
+        <h2>Full Stack Devlopment</h2>
+        <p>
+          I can look after every aspect of the devlopement from designing cool
+          user interfaces, writting server side code and deploying app.
+        </p>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p> -->
+      </div>
+      <!-- <div class="service-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png"/></div>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed architecto placeat beatae tenetur officia quod</p>
+        </div> -->
+    </div>
+  </div>
+</section>
+<!-- End Service Section -->
+
+<!-- Projects Section -->
+<section id="projects">
+  <div class="projects container">
+    <div class="projects-header">
+      <h1 class="section-title">Recent <span>Project</span></h1>
+    </div>
+    <div class="all-projects">
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Feature 1</h1>
+          <h2>Coding is Love</h2>
+          <p>
+              This is Dashboard of the application which user lands after login into application, where user can see
+              the revenue details, activity feed, chat with other users, last location of trucks, plan loads etc.
+          </p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/img/dashboard.PNG" alt="img" />
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Feature 2</h1>
+          <h2>Coding is Love</h2>
+          <p>
+            This is Active Load screen where all the loads of the screen are listed, user can search, sort,resize the columns.
+
+                   </p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/img/active loads.PNG" alt="img" />
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Feature 3</h1>
+          <h2>Coding is Love</h2>
+          <p>
+            This is Fuel Transaction report screen, where user can see the transaction of fuel cards assigned to trucks or driver
+            and status of the transactions.
+                </p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/img/fuel.PNG" alt="img" />
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Feature 4</h1>
+          <h2>Coding is Love</h2>
+          <p>
+            This is Routing screen of the application, where user can see route of the load, can see route details on map.
+          </p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/img/routing.PNG" alt="img" />
+        </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Feature 5</h1>
+          <h2>Coding is Love</h2>
+          <p>
+            This is the last location of truck section on map, where user can see the last location of truck.
+            I used clustering if the multiple truck are at same location.
+                </p>
+        </div>
+        <div class="project-img">
+          <img src="../assets/img/last.PNG" alt="img" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Projects Section -->
+
+<!-- About Section -->
+<section id="about">
+  <div class="about container">
+    <div class="col-left">
+      <div class="about-img">
+        <img src="../assets/img/rahul.jpg.jpg" alt="img" />
+      </div>
+    </div>
+    <div class="col-right">
+      <h1 class="section-title">Who <span>I</span> <span> am</span></h1>
+      <h2>Full Stack Web Developer</h2>
+      <p>
+        My Name is Rahul, I am Full Stack Web Developer. I have more than 2
+        years of experience in software development with strong focus on full
+        stack web development. I am specialized in ASP.NET Core, Web API,
+        ASP.NET MVC and Angular with expertise deploying on Microsoft Azure.
+      </p>
+
+      <p>
+        I love to code and dig deep into programming, I am space enthusiast, so
+        when i am not coding i spare time knowing about galaxies, planets, solar
+        system, stars etc.
+      </p>
+      <p>
+        I invest enormously in bettering myself, my skills, my character, and my
+        outlook on the world.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End About Section -->
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">Get <span>In Touch</span></h1>
+    </div>
+    <div class="contact-items">
+      <div class="contact-item">
+        <div class="icon">
+          <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+        </div>
+        <div class="contact-info">
+          <h1>Contact</h1>
+          <h2>7888147737</h2>
+           </div>
+      </div>
+      <div class="contact-item">
+        <div class="icon">
+          <img src="https://img.icons8.com/bubbles/100/000000/new-post.png" />
+        </div>
+        <div class="contact-info">
+          <h1>Email</h1>
+          <h2>rahulkale360@gmail.com</h2>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="icon">
+          <img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" />
+        </div>
+        <div class="contact-info">
+          <h1>Address</h1>
+          <h2>Kala Khadak Tathawade, Pimpri-Chinchwad, Maharashtra 411033
+            </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+<section id="skills">
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">MY <span>SKILLS</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="../assets/img/angular.svg" /></div>
+          <div class="contact-info">
+            <h1>Angular</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'Angular'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon">
+            <img src="../assets/img/c-sharp-c-seeklogo.com.svg" />
+          </div>
+          <div class="contact-info">
+            <h1>C#</h1>
+            <circle-progress
+              [percent]="80"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'C#'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon">
+            <img src="../assets/img/net-seeklogo.com.svg" />
+          </div>
+          <div class="contact-info">
+            <h1>.NET Core</h1>
+            <circle-progress
+              [percent]="85"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'ASP.NET Core'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">
+            <img src="../assets/img/microsoft-sql-server-seeklogo.com.svg" />
+          </div>
+          <div class="contact-info">
+            <h1>SQL Server</h1>
+            <circle-progress
+              [percent]="65"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'SQL Server'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="../assets/img/api.svg" /></div>
+          <div class="contact-info">
+            <h1>Web API</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'Web API'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        
+        <div class="contact-item">
+          <div class="icon">
+            <img
+              src="../assets/img/https___i.pinimg.com_originals_02_57_92_0257928fb92eb0ab44f9d5e3187101bd.png"
+            />
+          </div>
+          <div class="contact-info">
+            <h1>LINQ</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'LINQ'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">
+            <img
+              src="https://www.barrownz.com/Content/Images/Logos/MVCLogo.png"
+            />
+          </div>
+          <div class="contact-info">
+            <h1>ASP.NET MVC</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'ASP.NET MVC'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">
+            <img src="../assets/img/git-seeklogo.com.svg" />
+          </div>
+          <div class="contact-info">
+            <h1>Git</h1>
+            <circle-progress
+              [percent]="60"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'Git'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+       
+      </div>
+
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="../assets/img/html5-with-wordmark-color.svg" /></div>
+          <div class="contact-info">
+            <h1>HTML</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'HTML'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        
+        <div class="contact-item">
+          <div class="icon">
+            <img
+              src="../assets/img/css.svg"
+            />
+          </div>
+          <div class="contact-info">
+            <h1>CSS</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'CSS'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">
+            <img
+              src="https://camo.githubusercontent.com/0e0adf58c74c6e74bb64ece5d0ef4620f4f46915/68747470733a2f2f76352e676574626f6f7473747261702e636f6d2f646f63732f352e302f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67"
+            />
+          </div>
+          <div class="contact-info">
+            <h1>Bootstrap</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'Bootstrap'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">
+            <img src="https://brand.jquery.org/resources/jquery-mark-dark.gif" />
+          </div>
+          <div class="contact-info">
+            <h1>jQuery </h1>
+            <circle-progress
+              [percent]="60"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'jQuery'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+       
+      </div>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://miro.medium.com/max/700/1*v3b022s2UAyhVAFLUtzhJg.png" /></div>
+          <div class="contact-info">
+            <h1>AJAX</h1>
+            <circle-progress
+              [percent]="90"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'AJAX'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        
+        <div class="contact-item">
+          <div class="icon">
+            <img
+              src="http://seekvectorlogo.com/wp-content/uploads/2018/01/microsoft-azure-vector-logo-small.png"
+            />
+          </div>
+          <div class="contact-info">
+            <h1>Microsoft Azure</h1>
+            <circle-progress
+              [percent]="30"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'Microsoft Azure'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">
+            <img
+              src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/8b/b778f856984c83a2b0b6a0d5ee48ad/atlassian-mini-logo-gradient-horizontal-white.png?auto=format%2Ccompress&dpr=1&h=70"
+            />
+          </div>
+          <div class="contact-info">
+            <h1>JIRA</h1>
+            <circle-progress
+              [percent]="40"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'Bootstrap'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="icon">
+            <img src="https://www.ifourtechnolab.com/pics/ASP.NET_SignalR_for_real_time_applications.png" />
+          </div>
+          <div class="contact-info">
+            <h1>SignalR </h1>
+            <circle-progress
+              [percent]="80"
+              [radius]="60"
+              [outerStrokeWidth]="8"
+              [innerStrokeWidth]="0"
+              [outerStrokeColor]="'#4882c2'"
+              [innerStrokeColor]="'#e7e8ea'"
+              [animation]="true"
+              [animationDuration]="300"
+              [backgroundOpacity]="1"
+              [backgroundColor]="'transparent'"
+              [backgroundGradient]="false"
+              [backgroundGradientStopColor]="'transparent'"
+              [backgroundStroke]="'backgroundStroke'"
+              [outerStrokeGradient]="true"
+              [outerStrokeGradientStopColor]="'#53a9ff'"
+              [titleColor]="'#444444'"
+              [unitsColor]="'#444444'"
+              [subtitleColor]="'#A9A9A9'"
+              [subtitle]="'SignalR'"
+              [subtitleColor]="'53a9ff'"
+              [animateTitle]="true"
+              [outerStrokeWidth]="10"
+              [space]="-10"
+              [innerStrokeWidth]="10"
+              [backgroundStrokeWidth]="0"
+              [outerStrokeLinecap]="'round'"
+            ></circle-progress>
+          </div>
+        </div>
+       
+      </div>
+
+    </div>
+  </section>
+</section>
+<!-- Footer -->
+<section id="footer">
+  <div class="footer container">
+    <div class="brand">
+      <h1><span>R</span>ahul <span>K</span>ale</h1>
+    </div>
+    <h2>Complete Web Devloper</h2>
+    <div class="social-icon">
+      <div class="social-item">
+        <a href="https://www.facebook.com/rahul.kale.33633"
+          ><img
+            title="facebook"
+            src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"
+        /></a>
+      </div>
+      <div class="social-item">
+        <a href="https://github.com/Rahulkale360"
+          ><img src="https://img.icons8.com/bubbles/100/000000/github.png"
+        /></a>
+      </div>
+      <div class="social-item">
+        <a href="https://www.linkedin.com/in/rahul-kale-309499140/"
+          ><img
+            title="LinkedIn"
+            src="https://img.icons8.com/bubbles/100/000000/linkedin.png"
+        /></a>
+      </div>
+      <!-- <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png"/></a>
+        </div>-->
+    </div>
+    <p>Copyright © 2020 Rahul. Built with love using angular</p>
+  </div>
+</section>
+<!-- End Footer -->
