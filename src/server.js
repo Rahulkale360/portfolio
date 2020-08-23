@@ -1,6 +1,8 @@
 const express = require('express');
+var favicon = require('serve-favicon')
 const app = express();
 app.use(express.static(__dirname + '/dist/portfolio'));
+app.use(favicon(__dirname + '/dist/favicon.ico'));
 
 //PathLocationStrategy
 app.get('/*',function(req, res){
